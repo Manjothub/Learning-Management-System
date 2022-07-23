@@ -1,0 +1,1216 @@
+{% extends "common/base.html" %}
+{% load static %}
+{% block body %}
+<section class="py-13 pt-xl-14 mt-n13 pb-lg-12 bg-cover position-relative" style="background: linear-gradient(90deg, #FFEBE5 0.13%, #EDEAF6 100.01%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-5 col-lg-5 order-md-2" data-aos="fade-in">
+
+                <!-- Image -->
+                <img src="{% static 'assets/img/illustrations/illustration-5.svg' %}" class="img-fluid ms-xl-n11 mw-md-174 mb-6 mb-md-0" alt="...">
+
+            </div>
+
+            <div class="col-12 col-md-7 col-lg-7 order-md-1">
+                <!-- Heading -->
+                <h1 class="display-2 text-gradient-1 text-capitalize" data-aos="fade-left" data-aos-duration="150">
+                    Learn on your <span class="fw-bold">Schedule</span>
+                </h1>
+
+                <!-- Text -->
+                <p class="lead pe-md-8 pe-xl-12 text-capitalize" data-aos="fade-up" data-aos-duration="200">
+                    Technology is bringing a massive wave of evolution on learning things in different ways.
+                </p>
+
+                <!-- Buttons -->
+                <a href="" class="btn btn-tangerine btn-wide rounded-lg mb-4 mb-md-0 me-md-5 text-w" data-aos="fade-up" data-aos-duration="200">GET STARTED</a>
+                <a href="" class="btn btn-gigas btn-wide rounded-lg d-none d-lg-inline-block" data-aos="fade-up" data-aos-duration="200">VIEW COURSES</a>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+    <!-- Shape -->
+    <div class="d-none d-wd-block shape shape-blur shape-left shape-fluid-y svg-shim text-white">
+        <svg viewBox="0 0 310 800" fill="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">
+            <path fill="currentColor" d="M193,0H0v800h310c-64.6,0-117-52.4-117-117V0z"/>
+        </svg>
+
+    </div>
+</section>
+
+<!-- FEATURED PRODUCT
+================================================== -->
+<section class="pt-5 pb-9 py-md-11 bg-white">
+    <div class="container">
+        <div class="text-center mb-5 mb-md-8">
+            <h1 class="mb-1">Featured Courses</h1>
+            <p class="font-size-lg text-capitalize">Discover your perfect program in our courses.</p>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift sk-fade">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <div class="badge-float sk-fade-top top-0 right-0 mt-4 me-4">
+                                    <a href="course-single-v1.html" class="btn btn-xs btn-dark text-white rounded-circle lift opacity-dot-7 me-1 p-2 d-inline-flex justify-content-center align-items-center w-36 h-36">
+                                        <!-- Icon -->
+                                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.8856 8.64995C17.7248 8.42998 13.8934 3.26379 8.99991 3.26379C4.10647 3.26379 0.274852 8.42998 0.114223 8.64974C-0.0380743 8.85843 -0.0380743 9.14147 0.114223 9.35016C0.274852 9.57013 4.10647 14.7363 8.99991 14.7363C13.8934 14.7363 17.7248 9.5701 17.8856 9.35034C18.0381 9.14169 18.0381 8.85843 17.8856 8.64995ZM8.99991 13.5495C5.39537 13.5495 2.27345 10.1206 1.3493 8.99965C2.27226 7.87771 5.38764 4.4506 8.99991 4.4506C12.6043 4.4506 15.726 7.8789 16.6505 9.00046C15.7276 10.1224 12.6122 13.5495 8.99991 13.5495Z" fill="currentColor"/>
+                                            <path d="M8.9999 5.43958C7.03671 5.43958 5.43945 7.03683 5.43945 9.00003C5.43945 10.9632 7.03671 12.5605 8.9999 12.5605C10.9631 12.5605 12.5603 10.9632 12.5603 9.00003C12.5603 7.03683 10.9631 5.43958 8.9999 5.43958ZM8.9999 11.3736C7.69103 11.3736 6.62629 10.3089 6.62629 9.00003C6.62629 7.6912 7.69107 6.62642 8.9999 6.62642C10.3087 6.62642 11.3735 7.6912 11.3735 9.00003C11.3735 10.3089 10.3088 11.3736 8.9999 11.3736Z" fill="currentColor"/>
+                                        </svg>
+
+                                    </a>
+                                    <a href="course-single-v1.html" class="btn btn-xs btn-dark text-white rounded-circle lift opacity-dot-7 p-2 d-inline-flex justify-content-center align-items-center w-36 h-36">
+                                        <!-- Icon -->
+                                        <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2437 1.20728C10.0203 1.20728 8.87397 1.66486 7.99998 2.48357C7.12598 1.66486 5.97968 1.20728 4.7563 1.20728C2.13368 1.20728 0 3.341 0 5.96366C0 7.2555 0.425164 8.52729 1.26366 9.74361C1.91197 10.6841 2.80887 11.5931 3.92937 12.4454C5.809 13.8753 7.66475 14.6543 7.74285 14.6867L7.99806 14.7928L8.25384 14.6881C8.33199 14.6562 10.1889 13.8882 12.0696 12.4635C13.1907 11.6142 14.0881 10.7054 14.7367 9.7625C15.575 8.54385 16 7.26577 16 5.96371C16 3.341 13.8663 1.20728 11.2437 1.20728ZM8.00141 13.3353C6.74962 12.7555 1.33966 10.0142 1.33966 5.96366C1.33966 4.07969 2.87237 2.54698 4.75634 2.54698C5.827 2.54698 6.81558 3.03502 7.46862 3.88598L8.00002 4.57845L8.53142 3.88598C9.18446 3.03502 10.173 2.54698 11.2437 2.54698C13.1276 2.54698 14.6604 4.07969 14.6604 5.96366C14.6603 10.0433 9.25265 12.7613 8.00141 13.3353Z" fill="currentColor"/>
+                                        </svg>
+
+                                    </a>
+                                </div>
+
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{% static 'assets/img/products/product-1.jpg' %}" alt="..."></a>
+
+                                <span class="badge sk-fade-bottom badge-lg badge-tangerine badge-pill badge-float bottom-0 left-0 mb-4 ms-4">
+                                    <span class="text-white text-uppercase fw-bold font-size-xs">BEST SELLER</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Photography</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{% static 'assets/img/products/product-2.jpg' %}" alt="..."></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{% static 'assets/img/products/product-3.jpg' %}" alt="..."></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{% static 'assets/img/products/product-4.jpg' %}" alt="..."></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{% static 'assets/img/products/product-5.jpg' %}" alt="..."></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pb-4 pb-md-6">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-auto rounded-lg d-flex">
+                            <!-- Image -->
+                            <div class="card-zoom d-flex position-relative mw-lg-200p mw-xl-260p">
+                                <a href="course-single-v1.html" class="d-flex"><img class="card-img-top img-fluid o-f-c" src="{ % static 'assets/img/products/product-6.jpg' %}" alt="..."></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg">
+                            <!-- Footer -->
+                            <div class="card-body px-md-0 px-3 py-5">
+                                <!-- Preheading -->
+                                <a href="course-single-v1.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+
+                                <!-- Heading -->
+                                <a href="course-single-v1.html" class="d-block"><h4 class="line-clamp-2 h-48 h-lg-58 me-xl-3">Fashion Photography From Professional</h4></a>
+
+                                <ul class="nav mx-n3 mb-4 mb-4">
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">5 lessons</div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-2 d-flex icon-uxs text-secondary">
+                                                <!-- Icon -->
+                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor"/>
+                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">8h 12m</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex align-items-center">
+                                    <del class="font-size-sm me-2">$959</del>
+                                    <ins class="h4 mb-0">$415.99</ins>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="course-list-v5.html" class="btn btn-gigas btn-x-wide rounded-lg lift">VIEW ALL COURSES</a>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURE GENERAL
+================================================== -->
+<section class="py-6 py-md-12 position-relative" style="background-color: #E8F8FB;">
+    <div class="container">
+        <div class="text-center text-capitalize">
+            <h1 class="mb-1">Know why we are best</h1>
+            <p class="font-size-lg mb-md-7 mb-4">Discover your perfect program in our courses.</p>
+        </div>
+
+        <ul class="nav mx-md-n5 justify-content-md-center text-capitalize mb-5 mb-md-9">
+            <li class="nav-item px-md-5 mb-4 mb-md-0">
+                <a href="#" class="nav-link fw-medium p-0 opacity-hover"><span class="font-size-xxl me-3">01</span><span class="font-size-lg">Creating a Better Future for you</span></a>
+            </li>
+
+            <li class="nav-item px-md-5 mb-4 mb-md-0">
+                <a href="#" class="nav-link fw-medium p-0 opacity-hover"><span class="font-size-xxl me-3">02</span><span class="font-size-lg">Learn why eLearny is Best</span></a>
+            </li>
+
+            <li class="nav-item px-md-5 mb-4 mb-md-0">
+                <a href="#" class="nav-link fw-medium p-0 opacity-hover"><span class="font-size-xxl me-3">03</span><span class="font-size-lg">Our Simple & Effective Process</span></a>
+            </li>
+        </ul>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2 mb-6 mb-lg-0">
+                <!-- Image -->
+                <img src="{% static 'assets/img/photos/photo-1.jpg' %}" class="img-fluid rounded-lg" alt="...">
+            </div>
+
+            <div class="col-lg-6 order-lg-1">
+                <h3 class="font-size-xxl text-black mb-4">The Prodigious eLearning Courses for you</h3>
+
+                <p class="mb-5 me-lg-6 line-height-lg">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+                <ul class="mb-6 ps-4">
+                    <li class="mb-5">Creative Study Pattern</li>
+                    <li class="mb-5">Quick Crash Courses</li>
+                    <li class="mb-5">Certification Awarded</li>
+                    <li class="mb-5">Provided with Experimental Examples</li>
+                </ul>
+
+                <a href="course-single-v1.html" class="btn btn-gigas btn-wide rounded-lg lift">NEW COURSES</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shape -->
+    <div class="d-none d-wd-block shape shape-blur shape-left shape-flip-y-rotate shape-fluid-y svg-shim text-white">
+        <svg viewBox="0 0 310 800" fill="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">
+            <path fill="currentColor" d="M193,0H0v800h310c-64.6,0-117-52.4-117-117V0z"/>
+        </svg>
+
+    </div>
+</section>
+
+<!-- ICON BLOCKS
+================================================== -->
+<section class="py-5 pt-md-11 pb-md-12 bg-white text-center">
+    <div class="container">
+        <div class="mb-8">
+            <h1 class="mb-1">New App Features</h1>
+            <p class="font-size-lg mb-0 text-capitalize">Discover your perfect program in our courses.</p>
+        </div>
+
+        <div class="row text-capitalize">
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #EDEAF6; color: #4E35A3;">
+                        <!-- Icon -->
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M35.416 40H6.24935C3.72102 40 1.66602 37.945 1.66602 35.4167V4.58333C1.66602 2.055 3.72102 0 6.24935 0H32.0827C32.7727 0 33.3327 0.56 33.3327 1.25V6.66667H35.416C36.106 6.66667 36.666 7.22667 36.666 7.91667V38.75C36.666 39.44 36.106 40 35.416 40ZM4.16602 8.665V35.4167C4.16602 36.565 5.10102 37.5 6.24935 37.5H34.166V9.16667H6.24935C5.49935 9.16667 4.79102 8.98667 4.16602 8.665ZM6.24935 2.5C5.10102 2.5 4.16602 3.435 4.16602 4.58333C4.16602 5.73167 5.10102 6.66667 6.24935 6.66667H30.8327V2.5H6.24935Z" fill="currentColor"/>
+                            <path d="M20.4173 31.6665C20.189 31.6665 19.964 31.6048 19.7606 31.4815L15.0006 28.5515L10.2407 31.4815C9.85398 31.7198 9.37232 31.7282 8.97398 31.5082C8.57732 31.2865 8.33398 30.8682 8.33398 30.4165V7.9165H10.834V28.1798L14.344 26.0198C14.7473 25.7732 15.2523 25.7732 15.6556 26.0198L19.1656 28.1798V7.9165H21.6673V30.4165C21.6673 30.8682 21.424 31.2865 21.0273 31.5082C20.8373 31.6132 20.6273 31.6665 20.4173 31.6665Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>Bookmark Fav Courses</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #E8F8FB; color: #17B5D1;">
+                        <!-- Icon -->
+                        <svg width="45" height="41" viewBox="0 0 45 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.8823 30.607C16.0556 29.4717 16.7871 27.8826 16.7871 26.125C16.7871 22.6842 13.9877 19.8848 10.5469 19.8848C7.10605 19.8848 4.30664 22.6842 4.30664 26.125C4.30664 27.877 5.03341 29.4616 6.20007 30.5962C2.54689 32.1308 0 35.5376 0 39.4844C0 40.2125 0.590273 40.8027 1.31836 40.8027C2.04645 40.8027 2.63672 40.2125 2.63672 39.4844C2.63672 35.5589 6.18521 32.3652 10.5469 32.3652C14.8601 32.3652 18.3691 35.5589 18.3691 39.4844C18.3691 40.2125 18.9594 40.8027 19.6875 40.8027C20.4156 40.8027 21.0059 40.2125 21.0059 39.4844C21.0059 35.5467 18.4917 32.1467 14.8823 30.607ZM6.94336 26.125C6.94336 24.1381 8.55993 22.5215 10.5469 22.5215C12.5338 22.5215 14.1504 24.1381 14.1504 26.125C14.1504 28.1119 12.5338 29.7285 10.5469 29.7285C8.55993 29.7285 6.94336 28.1119 6.94336 26.125Z" fill="currentColor"/>
+                            <path d="M23.9941 19.7969C23.9941 20.525 24.5844 21.1152 25.3125 21.1152C26.0406 21.1152 26.6309 20.525 26.6309 19.7969C26.6309 15.8714 30.1399 12.6777 34.4531 12.6777C38.8148 12.6777 42.3633 15.8714 42.3633 19.7969C42.3633 20.525 42.9536 21.1152 43.6816 21.1152C44.4097 21.1152 45 20.525 45 19.7969C45 15.8501 42.4531 12.4433 38.7999 10.9087C39.9666 9.77409 40.6934 8.18951 40.6934 6.4375C40.6934 2.99667 37.894 0.197266 34.4531 0.197266C31.0123 0.197266 28.2129 2.99667 28.2129 6.4375C28.2129 8.19514 28.9444 9.7842 30.1177 10.9195C26.5083 12.4592 23.9941 15.8592 23.9941 19.7969ZM30.8496 6.4375C30.8496 4.45056 32.4662 2.83398 34.4531 2.83398C36.4401 2.83398 38.0566 4.45056 38.0566 6.4375C38.0566 8.42444 36.4401 10.041 34.4531 10.041C32.4662 10.041 30.8496 8.42444 30.8496 6.4375Z" fill="currentColor"/>
+                            <path d="M5.53711 16.8965H18.3691C19.823 16.8965 21.0059 15.7137 21.0059 14.2598V11.3594C21.1184 11.246 21.9609 10.3023 24.3516 7.58441C26.0789 5.85709 25.225 3.42498 23.0585 3.03106C22.7863 2.9814 23.9588 3.00979 5.53711 3.00979C4.08322 3.00979 2.90039 4.19262 2.90039 5.64651V14.2598C2.90039 15.7137 4.08322 16.8965 5.53711 16.8965ZM5.53711 5.64651C15.7944 5.64651 21.0927 5.64835 22.5593 5.64835C22.3946 5.81543 21.4656 6.79321 19.2057 9.34002C18.6656 9.89918 18.3691 10.6074 18.3691 11.3594V14.2598H5.53711V5.64651Z" fill="currentColor"/>
+                            <path d="M31.6112 29.951C31.0054 30.3602 30.8438 31.1673 31.2473 31.7792C31.6268 32.3567 32.4396 32.5624 33.0754 32.1431C33.6786 31.7361 33.8448 30.9299 33.4393 30.315C33.0371 29.7175 32.233 29.5424 31.6112 29.951Z" fill="currentColor"/>
+                            <path d="M36.6764 31.3042C36.9167 32.4636 38.4285 32.7477 39.0652 31.7788C39.7006 30.8155 38.8907 29.5334 37.7117 29.7538C36.9978 29.9021 36.54 30.576 36.6764 31.3042Z" fill="currentColor"/>
+                            <path d="M44.9996 35.3534V26.7402C44.9996 25.2863 43.8168 24.1034 42.3629 24.1034C20.6699 24.1034 22.1948 24.0784 21.9412 24.1247C19.7747 24.5186 18.9207 26.9507 20.6481 28.6781C23.0388 31.396 23.8812 32.3397 23.9938 32.453V35.3534C23.9938 36.8073 25.1766 37.9902 26.6305 37.9902H42.3629C43.8168 37.9902 44.9996 36.8073 44.9996 35.3534ZM42.3629 35.3534H26.6305V32.453C26.6305 31.7011 26.334 30.9928 25.794 30.4337C23.534 27.8869 22.605 26.9091 22.4403 26.742C23.9069 26.742 32.1056 26.7402 42.3629 26.7402V35.3534Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>Live Chats</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #FFEBE5; color: #FD5000;">
+                        <!-- Icon -->
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.5005 39.1303C23.581 39.1303 24.457 38.2544 24.457 37.1738C24.457 36.0932 23.581 35.2173 22.5005 35.2173C21.4199 35.2173 20.5439 36.0932 20.5439 37.1738C20.5439 38.2544 21.4199 39.1303 22.5005 39.1303Z" fill="currentColor"/>
+                            <path d="M19.2785 17.8952L15.3654 13.9822C14.9829 13.5997 14.3647 13.5997 13.9822 13.9822C13.5997 14.3647 13.5997 14.9829 13.9822 15.3654L17.2036 18.5869L13.9822 21.8083C13.5997 22.1908 13.5997 22.809 13.9822 23.1915C14.1729 23.3823 14.4234 23.4782 14.6738 23.4782C14.9243 23.4782 15.1747 23.3823 15.3654 23.1915L19.2785 19.2785C19.661 18.896 19.661 18.2777 19.2785 17.8952Z" fill="currentColor"/>
+                            <path d="M30.3258 21.5217H22.4997C21.9597 21.5217 21.5215 21.96 21.5215 22.5C21.5215 23.04 21.9597 23.4783 22.4997 23.4783H30.3258C30.8658 23.4783 31.3041 23.04 31.3041 22.5C31.3041 21.96 30.8658 21.5217 30.3258 21.5217Z" fill="currentColor"/>
+                            <path d="M30.3263 15.6521H24.4568C23.9168 15.6521 23.4785 16.0904 23.4785 16.6304C23.4785 17.1704 23.9168 17.6086 24.4568 17.6086H30.3263C30.8663 17.6086 31.3046 17.1704 31.3046 16.6304C31.3046 16.0904 30.8663 15.6521 30.3263 15.6521Z" fill="currentColor"/>
+                            <path d="M30.3257 27.3914H14.6736C14.1336 27.3914 13.6953 27.8296 13.6953 28.3696C13.6953 28.9096 14.1336 29.3479 14.6736 29.3479H30.3257C30.8657 29.3479 31.304 28.9096 31.304 28.3696C31.304 27.8296 30.8657 27.3914 30.3257 27.3914Z" fill="currentColor"/>
+                            <path d="M32.2788 0C32.0978 0 12.7175 0 12.7175 0C12.7175 0 12.7175 0 12.7165 0C11.4105 0 10.1828 0.508696 9.25932 1.43217C8.33585 2.35565 7.82617 3.58533 7.82617 4.8913V6.84587C7.82617 6.84685 7.82617 6.84685 7.82617 6.84783C7.82617 6.8488 7.82617 6.8488 7.82617 6.84978V40.1087C7.82617 42.8058 10.0204 45 12.7175 45H32.2827C34.9798 45 37.174 42.8058 37.174 40.1087V4.8913C37.174 2.19424 34.9798 0 32.2788 0ZM9.78269 4.8913C9.78269 4.10772 10.0879 3.37011 10.6426 2.81641C11.1963 2.26272 11.9329 1.95652 12.7165 1.95652H22.4991C29.0085 1.95652 31.3592 1.95652 32.2817 1.8812V1.95652C33.8998 1.95652 35.2165 3.27326 35.2165 4.8913V5.86957H9.78269V4.8913ZM35.2175 40.1087C35.2175 41.7267 33.9007 43.0435 32.2827 43.0435H12.7175C11.0994 43.0435 9.78269 41.7267 9.78269 40.1087V7.82609H35.2175V40.1087Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>App Access</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #E9F6FF; color: #0B55B5;">
+                        <!-- Icon -->
+                        <svg width="50" height="44" viewBox="0 0 50 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M28.9062 22C28.9062 19.8461 27.1539 18.0938 25 18.0938C22.8461 18.0938 21.0938 19.8461 21.0938 22C21.0938 24.1539 22.8461 25.9062 25 25.9062C27.1539 25.9062 28.9062 24.1539 28.9062 22ZM25 23.9531C23.923 23.9531 23.0469 23.077 23.0469 22C23.0469 20.923 23.923 20.0469 25 20.0469C26.077 20.0469 26.9531 20.923 26.9531 22C26.9531 23.077 26.077 23.9531 25 23.9531Z" fill="currentColor"/>
+                            <path d="M6.83594 43.4844H20.6055C21.1447 43.4844 21.582 43.0472 21.582 42.5078C21.582 41.9685 21.1447 41.5312 20.6055 41.5312H6.83594C4.47793 41.5312 2.50488 39.851 2.05127 37.624H47.9487C47.4951 39.851 45.5221 41.5312 43.1641 41.5312H29.3945C28.8553 41.5312 28.418 41.9685 28.418 42.5078C28.418 43.0472 28.8553 43.4844 29.3945 43.4844H43.1641C46.9334 43.4844 50 40.4178 50 36.6484C50 36.1091 49.5627 35.6719 49.0234 35.6719H45.6055V10.2812C45.6055 9.74189 45.1682 9.30469 44.6289 9.30469H37.6953V1.49219C37.6953 1.13203 37.4971 0.801074 37.1796 0.631152C36.862 0.46123 36.4766 0.479883 36.1771 0.679688L28.9062 5.52686V1.49219C28.9062 0.952832 28.4689 0.515625 27.9297 0.515625H13.2812C12.742 0.515625 12.3047 0.952832 12.3047 1.49219V9.30469H5.37109C4.83184 9.30469 4.39453 9.74189 4.39453 10.2812V35.6719H0.976562C0.437305 35.6719 0 36.1091 0 36.6484C0 40.4178 3.0666 43.4844 6.83594 43.4844ZM29.8828 35.6719H20.1172V32.7422C20.1172 30.0498 22.3076 27.8594 25 27.8594C27.6924 27.8594 29.8828 30.0498 29.8828 32.7422V35.6719ZM35.7422 3.31689V11.3862L29.6901 7.35156L35.7422 3.31689ZM14.2578 2.46875H26.9531V12.2344H14.2578V2.46875ZM6.34766 11.2578H12.3047V13.2109C12.3047 13.7503 12.742 14.1875 13.2812 14.1875H27.9297C28.4689 14.1875 28.9062 13.7503 28.9062 13.2109V9.17627L36.1771 14.0234C36.4771 14.2235 36.8625 14.2416 37.1796 14.072C37.4971 13.9021 37.6953 13.5711 37.6953 13.2109V11.2578H43.6523V35.6719H31.8359V32.7422C31.8359 28.9729 28.7693 25.9062 25 25.9062C21.2307 25.9062 18.1641 28.9729 18.1641 32.7422V35.6719H6.34766V11.2578Z" fill="currentColor"/>
+                            <path d="M25 43.4844C25.5393 43.4844 25.9766 43.0472 25.9766 42.5078C25.9766 41.9685 25.5393 41.5312 25 41.5312C24.4607 41.5312 24.0234 41.9685 24.0234 42.5078C24.0234 43.0472 24.4607 43.4844 25 43.4844Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>Video Demonstration</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #FCF7EB; color: #E0B339;">
+                        <!-- Icon -->
+                        <svg width="38" height="51" viewBox="0 0 38 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 26.1389C24.5246 26.1389 28.7656 21.6148 28.7656 16.3123C28.7656 10.896 24.3862 6.48776 19.0033 6.4856C19.0032 6.4856 19.0001 6.4856 19 6.4856C13.6152 6.4856 9.23438 10.8938 9.23438 16.3123C9.23438 21.6121 13.4726 26.1389 19 26.1389ZM13.3845 21.7786L18.0234 18.2776V24.113C16.2487 23.8931 14.6256 23.0763 13.3845 21.7786ZM19.9766 24.113V18.2776L24.6156 21.7786C23.3747 23.0762 21.7514 23.8931 19.9766 24.113ZM26.8125 16.3123C26.8125 17.698 26.4605 19.0268 25.7882 20.2069L19.9766 15.8209V8.5146C23.8247 9.00034 26.8125 12.3113 26.8125 16.3123ZM18.0234 8.51451V15.8209L12.2117 20.207C11.5395 19.0272 11.1875 17.6982 11.1875 16.3123C11.1875 12.3104 14.1751 8.99994 18.0234 8.51451Z" fill="currentColor"/>
+                            <path d="M24.8594 30.0696H13.1406C12.6013 30.0696 12.1641 30.5095 12.1641 31.0522C12.1641 31.595 12.6013 32.0349 13.1406 32.0349H24.8594C25.3986 32.0349 25.8359 31.595 25.8359 31.0522C25.8359 30.5095 25.3986 30.0696 24.8594 30.0696Z" fill="currentColor"/>
+                            <path d="M19 50.3125C19.5393 50.3125 19.9766 49.8725 19.9766 49.3298C19.9766 48.7871 19.5393 48.3472 19 48.3472C18.4607 48.3472 18.0234 48.7871 18.0234 49.3298C18.0234 49.8725 18.4607 50.3125 19 50.3125Z" fill="currentColor"/>
+                            <path d="M0.445312 6.87866V43.4338C0.445312 47.2267 3.51191 50.3125 7.28125 50.3125H14.6055C15.1448 50.3125 15.582 49.8726 15.582 49.3298C15.582 48.7871 15.1448 48.3472 14.6055 48.3472H7.28125C4.58887 48.3472 2.39844 46.143 2.39844 43.4338C2.39844 40.7246 4.58887 38.5205 7.28125 38.5195H33.792C33.212 39.5402 32.8246 40.8983 32.7089 42.4512H7.28125C6.74189 42.4512 6.30469 42.8911 6.30469 43.4338C6.30469 43.9766 6.74189 44.4165 7.28125 44.4165H32.7089C32.8246 45.9694 33.2119 47.3275 33.7919 48.3472H23.3945C22.8553 48.3472 22.418 48.7871 22.418 49.3298C22.418 49.8726 22.8553 50.3125 23.3945 50.3125H36.5781C37.1174 50.3125 37.5547 49.8726 37.5547 49.3298C37.5547 48.7871 37.1174 48.3472 36.5781 48.3472C35.7818 48.3472 34.625 46.4331 34.625 43.4338C34.625 40.4345 35.7818 38.5205 36.5781 38.5205C37.1174 38.5205 37.5547 38.0806 37.5547 37.5378V0.982666C37.5547 0.43994 37.1174 0 36.5781 0H7.28125C3.51191 0 0.445312 3.08577 0.445312 6.87866ZM7.28125 1.96533H35.6016V36.5552H7.28125C5.37041 36.5552 3.64014 37.3482 2.39844 38.6244V6.87866C2.39844 4.16945 4.58887 1.96533 7.28125 1.96533Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>Book Quality</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <div class="d-inline-block rounded-circle mb-4">
+                    <div class="icon-circle icon-circle-lg" style="background-color: #E6EFFF; color: #1264FF;">
+                        <!-- Icon -->
+                        <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.5455 26.7089C35.746 23.8553 34.0867 21.2808 31.7968 19.3737C30.4514 18.2532 28.9205 17.3934 27.2882 16.8229C28.7711 15.4936 29.7073 13.5595 29.7073 11.4088V7.25208C29.7073 3.25326 26.4743 0 22.5003 0C18.5263 0 15.2933 3.25326 15.2933 7.25208V11.4088C15.2933 13.5595 16.2295 15.4936 17.7124 16.8229C16.0801 17.3934 14.5492 18.2532 13.2038 19.3737C10.914 21.2808 9.25457 23.8553 8.45512 26.7089H5.20703L7.25778 45.2812H37.7428L39.7936 26.7089H36.5455ZM17.93 7.25208C17.93 4.71624 19.9802 2.6532 22.5003 2.6532C25.0204 2.6532 27.0706 4.71624 27.0706 7.25208V11.4088C27.0706 13.9446 25.0204 16.0076 22.5003 16.0076C19.9802 16.0076 17.93 13.9446 17.93 11.4088V7.25208ZM22.5003 18.6608C27.6174 18.6608 32.1295 21.9612 33.7835 26.7089H11.2171C12.8711 21.9612 17.3832 18.6608 22.5003 18.6608ZM35.3828 42.6281H9.61782L8.15295 29.3621H36.8477L35.3828 42.6281Z" fill="currentColor"/>
+                            <path d="M22.5 37.2332C23.4708 37.2332 24.2578 36.4412 24.2578 35.4644C24.2578 34.4875 23.4708 33.6956 22.5 33.6956C21.5292 33.6956 20.7422 34.4875 20.7422 35.4644C20.7422 36.4412 21.5292 37.2332 22.5 37.2332Z" fill="currentColor"/>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <h5>Courses for all Ages</h5>
+                <p class="px-lg-4 px-xl-5">Getting the necessary clarity about the current state to help you improve your game.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EVENTS
+================================================== -->
+<section class="py-6 pt-md-11 pb-md-10 bg-cover position-relative" style="background-color: #FDF9F1;">
+    <div class="container">
+        <div class="mb-8 text-center">
+            <h1 class="mb-1">News & Events</h1>
+            <p class="font-size-lg mb-0 text-capitalize">Discover your perfect program in our courses.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 pb-5 pb-lg-0" data-aos="fade-right">
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift mb-4 mb-xl-6">
+                    <div class="row gx-0">
+                        <div class="col-auto">
+                            <a href="event-single.html" class="rounded-lg d-flex w-100p h-100p place-center bg-tangerine">
+                                <div class="w-100 text-center">
+                                    <h3 class="text-white mb-0 fw-semi-bold font-size-xxl">06</h3>
+                                    <span class="h4 mb-0 text-white fw-normal">April</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <div class="ms-5 py-2">
+                                <a href="event-single.html" class="mb-2 me-xl-3 d-block"><h5 class="line-clamp-2 mb-1">Elegant Light Box Paper New Design Conference</h5></a>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-2 d-flex">
+                                        <!-- Icon -->
+                                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.9748 3.12964C13.6007 1.14086 11.4229 0 9.0002 0C6.57754 0 4.39972 1.14086 3.02557 3.12964C1.65816 5.10838 1.34243 7.61351 2.17929 9.82677C2.40313 10.4312 2.75894 11.0184 3.23433 11.5687L8.52105 17.7784C8.64062 17.919 8.8158 18 9.0002 18C9.18459 18 9.35978 17.919 9.47934 17.7784L14.7646 11.5703C15.2421 11.0169 15.5974 10.4303 15.8194 9.83078C16.658 7.61351 16.3422 5.10838 14.9748 3.12964ZM14.6408 9.38999C14.4697 9.85257 14.1902 10.3099 13.8107 10.7498C13.8096 10.7509 13.8086 10.7519 13.8077 10.7532L9.0002 16.3999L4.1897 10.7497C3.8104 10.3101 3.53094 9.85282 3.35808 9.38581C2.66599 7.55539 2.92864 5.48413 4.06088 3.84546C5.19668 2.20155 6.9971 1.25873 9.0002 1.25873C11.0033 1.25873 12.8035 2.20152 13.9393 3.84546C15.0718 5.48413 15.3346 7.55539 14.6408 9.38999Z" fill="currentColor"/>
+                                            <path d="M9.00019 3.73438C7.0569 3.73438 5.47571 5.31535 5.47571 7.25886C5.47571 9.20237 7.05668 10.7833 9.00019 10.7833C10.9437 10.7833 12.5247 9.20237 12.5247 7.25886C12.5247 5.31556 10.9435 3.73438 9.00019 3.73438ZM9.00019 9.52457C7.75088 9.52457 6.73444 8.50814 6.73444 7.25882C6.73444 6.00951 7.75088 4.99307 9.00019 4.99307C10.2495 4.99307 11.2659 6.00951 11.2659 7.25882C11.2659 8.50814 10.2495 9.52457 9.00019 9.52457Z" fill="currentColor"/>
+                                        </svg>
+
+                                    </div>
+                                    <div class="font-size-sm">London, UK</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift mb-4 mb-xl-6">
+                    <div class="row gx-0">
+                        <div class="col-auto">
+                            <a href="event-single.html" class="rounded-lg d-flex w-100p h-100p place-center bg-tangerine">
+                                <div class="w-100 text-center">
+                                    <h3 class="text-white mb-0 fw-semi-bold font-size-xxl">06</h3>
+                                    <span class="h4 mb-0 text-white fw-normal">April</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <div class="ms-5 py-2">
+                                <a href="event-single.html" class="mb-2 me-xl-3 d-block"><h5 class="line-clamp-2 mb-1">Elegant Light Box Paper New Design Conference</h5></a>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-2 d-flex">
+                                        <!-- Icon -->
+                                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.9748 3.12964C13.6007 1.14086 11.4229 0 9.0002 0C6.57754 0 4.39972 1.14086 3.02557 3.12964C1.65816 5.10838 1.34243 7.61351 2.17929 9.82677C2.40313 10.4312 2.75894 11.0184 3.23433 11.5687L8.52105 17.7784C8.64062 17.919 8.8158 18 9.0002 18C9.18459 18 9.35978 17.919 9.47934 17.7784L14.7646 11.5703C15.2421 11.0169 15.5974 10.4303 15.8194 9.83078C16.658 7.61351 16.3422 5.10838 14.9748 3.12964ZM14.6408 9.38999C14.4697 9.85257 14.1902 10.3099 13.8107 10.7498C13.8096 10.7509 13.8086 10.7519 13.8077 10.7532L9.0002 16.3999L4.1897 10.7497C3.8104 10.3101 3.53094 9.85282 3.35808 9.38581C2.66599 7.55539 2.92864 5.48413 4.06088 3.84546C5.19668 2.20155 6.9971 1.25873 9.0002 1.25873C11.0033 1.25873 12.8035 2.20152 13.9393 3.84546C15.0718 5.48413 15.3346 7.55539 14.6408 9.38999Z" fill="currentColor"/>
+                                            <path d="M9.00019 3.73438C7.0569 3.73438 5.47571 5.31535 5.47571 7.25886C5.47571 9.20237 7.05668 10.7833 9.00019 10.7833C10.9437 10.7833 12.5247 9.20237 12.5247 7.25886C12.5247 5.31556 10.9435 3.73438 9.00019 3.73438ZM9.00019 9.52457C7.75088 9.52457 6.73444 8.50814 6.73444 7.25882C6.73444 6.00951 7.75088 4.99307 9.00019 4.99307C10.2495 4.99307 11.2659 6.00951 11.2659 7.25882C11.2659 8.50814 10.2495 9.52457 9.00019 9.52457Z" fill="currentColor"/>
+                                        </svg>
+
+                                    </div>
+                                    <div class="font-size-sm">London, UK</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card border rounded-lg shadow p-2 lift mb-4 mb-xl-6">
+                    <div class="row gx-0">
+                        <div class="col-auto">
+                            <a href="event-single.html" class="rounded-lg d-flex w-100p h-100p place-center bg-tangerine">
+                                <div class="w-100 text-center">
+                                    <h3 class="text-white mb-0 fw-semi-bold font-size-xxl">06</h3>
+                                    <span class="h4 mb-0 text-white fw-normal">April</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <div class="ms-5 py-2">
+                                <a href="event-single.html" class="mb-2 me-xl-3 d-block"><h5 class="line-clamp-2 mb-1">Elegant Light Box Paper New Design Conference</h5></a>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-2 d-flex">
+                                        <!-- Icon -->
+                                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.9748 3.12964C13.6007 1.14086 11.4229 0 9.0002 0C6.57754 0 4.39972 1.14086 3.02557 3.12964C1.65816 5.10838 1.34243 7.61351 2.17929 9.82677C2.40313 10.4312 2.75894 11.0184 3.23433 11.5687L8.52105 17.7784C8.64062 17.919 8.8158 18 9.0002 18C9.18459 18 9.35978 17.919 9.47934 17.7784L14.7646 11.5703C15.2421 11.0169 15.5974 10.4303 15.8194 9.83078C16.658 7.61351 16.3422 5.10838 14.9748 3.12964ZM14.6408 9.38999C14.4697 9.85257 14.1902 10.3099 13.8107 10.7498C13.8096 10.7509 13.8086 10.7519 13.8077 10.7532L9.0002 16.3999L4.1897 10.7497C3.8104 10.3101 3.53094 9.85282 3.35808 9.38581C2.66599 7.55539 2.92864 5.48413 4.06088 3.84546C5.19668 2.20155 6.9971 1.25873 9.0002 1.25873C11.0033 1.25873 12.8035 2.20152 13.9393 3.84546C15.0718 5.48413 15.3346 7.55539 14.6408 9.38999Z" fill="currentColor"/>
+                                            <path d="M9.00019 3.73438C7.0569 3.73438 5.47571 5.31535 5.47571 7.25886C5.47571 9.20237 7.05668 10.7833 9.00019 10.7833C10.9437 10.7833 12.5247 9.20237 12.5247 7.25886C12.5247 5.31556 10.9435 3.73438 9.00019 3.73438ZM9.00019 9.52457C7.75088 9.52457 6.73444 8.50814 6.73444 7.25882C6.73444 6.00951 7.75088 4.99307 9.00019 4.99307C10.2495 4.99307 11.2659 6.00951 11.2659 7.25882C11.2659 8.50814 10.2495 9.52457 9.00019 9.52457Z" fill="currentColor"/>
+                                        </svg>
+
+                                    </div>
+                                    <div class="font-size-sm">London, UK</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-left">
+                <div class="row row-cols-md-2">
+                    <div class="col-md mb-5 mb-lg-0">
+                        <!-- Card -->
+                        <div class="card border shadow p-2 lift sk-fade">
+                            <!-- Image -->
+                            <div class="card-zoom position-relative">
+                                <a href="blog-single.html" class="card-img d-block sk-thumbnail img-ratio-8"><img class="rounded shadow-light-lg img-fluid" src="assets/img/post/post-7.jpg" alt="..."></a>
+
+                                <a href="blog-single.html" class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 left-0 mb-4 ms-4 px-5 me-4">
+                                    <span class="text-white fw-normal font-size-sm">Figma</span>
+                                </a>
+                            </div>
+
+                            <!-- Footer -->
+                            <div class="card-footer px-2 pb-0 pt-4">
+                                <ul class="nav mx-n3 mb-3">
+                                    <li class="nav-item px-3">
+                                        <a href="#" class="d-flex align-items-center text-gray-800">
+                                            <div class="me-3 d-flex">
+                                                <!-- Icon -->
+                                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.8102 9.52183C13.313 9.08501 12.7102 8.70758 12.0181 8.40008C11.7223 8.2687 11.3761 8.40191 11.2447 8.69762C11.1134 8.99334 11.2466 9.33952 11.5423 9.47102C12.1258 9.73034 12.6287 10.0436 13.0367 10.4021C13.5396 10.8441 13.8281 11.484 13.8281 12.1582V13.2422C13.8281 13.5653 13.5653 13.8281 13.2422 13.8281H1.75781C1.43475 13.8281 1.17188 13.5653 1.17188 13.2422V12.1582C1.17188 11.484 1.46038 10.8441 1.96335 10.4021C2.55535 9.88186 4.2802 8.67188 7.5 8.67188C9.89079 8.67188 11.8359 6.72672 11.8359 4.33594C11.8359 1.94515 9.89079 0 7.5 0C5.10921 0 3.16406 1.94515 3.16406 4.33594C3.16406 5.7336 3.82896 6.97872 4.85893 7.77214C2.97432 8.18642 1.80199 8.98384 1.18984 9.52183C0.433731 10.1862 0 11.147 0 12.1582V13.2422C0 14.2115 0.788498 15 1.75781 15H13.2422C14.2115 15 15 14.2115 15 13.2422V12.1582C15 11.147 14.5663 10.1862 13.8102 9.52183ZM4.33594 4.33594C4.33594 2.59129 5.75535 1.17188 7.5 1.17188C9.24465 1.17188 10.6641 2.59129 10.6641 4.33594C10.6641 6.08059 9.24465 7.5 7.5 7.5C5.75535 7.5 4.33594 6.08059 4.33594 4.33594Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">Jack Wilson</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a href="#" class="d-flex align-items-center text-gray-800">
+                                            <div class="me-2 d-flex">
+                                                <!-- Icon -->
+                                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0664 1.17188H11.7188V0.46875C11.7188 0.209883 11.5089 0 11.25 0C10.9911 0 10.7812 0.209883 10.7812 0.46875V1.17188H4.21875V0.46875C4.21875 0.209883 4.0089 0 3.75 0C3.4911 0 3.28125 0.209883 3.28125 0.46875V1.17188H1.93359C0.867393 1.17188 0 2.03927 0 3.10547V13.0664C0 14.1326 0.867393 15 1.93359 15H13.0664C14.1326 15 15 14.1326 15 13.0664V3.10547C15 2.03927 14.1326 1.17188 13.0664 1.17188ZM1.93359 2.10938H3.28125V2.57812C3.28125 2.83699 3.4911 3.04688 3.75 3.04688C4.0089 3.04688 4.21875 2.83699 4.21875 2.57812V2.10938H10.7812V2.57812C10.7812 2.83699 10.9911 3.04688 11.25 3.04688C11.5089 3.04688 11.7188 2.83699 11.7188 2.57812V2.10938H13.0664C13.6157 2.10938 14.0625 2.55621 14.0625 3.10547V4.21875H0.9375V3.10547C0.9375 2.55621 1.38434 2.10938 1.93359 2.10938ZM13.0664 14.0625H1.93359C1.38434 14.0625 0.9375 13.6157 0.9375 13.0664V5.15625H14.0625V13.0664C14.0625 13.6157 13.6157 14.0625 13.0664 14.0625Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">06 April, 2020</div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <!-- Heading -->
+                                <a href="#" class="d-block"><h5 class="line-clamp-2 h-48 h-lg-52 mb-2">The Best Destinations to Begin Your Round the World Trip</h5></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-5 mb-lg-0">
+                        <!-- Card -->
+                        <div class="card border shadow p-2 lift sk-fade">
+                            <!-- Image -->
+                            <div class="card-zoom position-relative">
+                                <a href="blog-single.html" class="card-img d-block sk-thumbnail img-ratio-8"><img class="rounded shadow-light-lg img-fluid" src="{ % static 'assets/img/post/post-8.jpg' %}" alt="..."></a>
+
+                                <a href="blog-single.html" class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 left-0 mb-4 ms-4 px-5 me-4">
+                                    <span class="text-white fw-normal font-size-sm">Adobe XD</span>
+                                </a>
+                            </div>
+
+                            <!-- Footer -->
+                            <div class="card-footer px-2 pb-0 pt-4">
+                                <ul class="nav mx-n3 mb-3">
+                                    <li class="nav-item px-3">
+                                        <a href="#" class="d-flex align-items-center text-gray-800">
+                                            <div class="me-3 d-flex">
+                                                <!-- Icon -->
+                                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.8102 9.52183C13.313 9.08501 12.7102 8.70758 12.0181 8.40008C11.7223 8.2687 11.3761 8.40191 11.2447 8.69762C11.1134 8.99334 11.2466 9.33952 11.5423 9.47102C12.1258 9.73034 12.6287 10.0436 13.0367 10.4021C13.5396 10.8441 13.8281 11.484 13.8281 12.1582V13.2422C13.8281 13.5653 13.5653 13.8281 13.2422 13.8281H1.75781C1.43475 13.8281 1.17188 13.5653 1.17188 13.2422V12.1582C1.17188 11.484 1.46038 10.8441 1.96335 10.4021C2.55535 9.88186 4.2802 8.67188 7.5 8.67188C9.89079 8.67188 11.8359 6.72672 11.8359 4.33594C11.8359 1.94515 9.89079 0 7.5 0C5.10921 0 3.16406 1.94515 3.16406 4.33594C3.16406 5.7336 3.82896 6.97872 4.85893 7.77214C2.97432 8.18642 1.80199 8.98384 1.18984 9.52183C0.433731 10.1862 0 11.147 0 12.1582V13.2422C0 14.2115 0.788498 15 1.75781 15H13.2422C14.2115 15 15 14.2115 15 13.2422V12.1582C15 11.147 14.5663 10.1862 13.8102 9.52183ZM4.33594 4.33594C4.33594 2.59129 5.75535 1.17188 7.5 1.17188C9.24465 1.17188 10.6641 2.59129 10.6641 4.33594C10.6641 6.08059 9.24465 7.5 7.5 7.5C5.75535 7.5 4.33594 6.08059 4.33594 4.33594Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">Jack Wilson</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a href="#" class="d-flex align-items-center text-gray-800">
+                                            <div class="me-2 d-flex">
+                                                <!-- Icon -->
+                                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0664 1.17188H11.7188V0.46875C11.7188 0.209883 11.5089 0 11.25 0C10.9911 0 10.7812 0.209883 10.7812 0.46875V1.17188H4.21875V0.46875C4.21875 0.209883 4.0089 0 3.75 0C3.4911 0 3.28125 0.209883 3.28125 0.46875V1.17188H1.93359C0.867393 1.17188 0 2.03927 0 3.10547V13.0664C0 14.1326 0.867393 15 1.93359 15H13.0664C14.1326 15 15 14.1326 15 13.0664V3.10547C15 2.03927 14.1326 1.17188 13.0664 1.17188ZM1.93359 2.10938H3.28125V2.57812C3.28125 2.83699 3.4911 3.04688 3.75 3.04688C4.0089 3.04688 4.21875 2.83699 4.21875 2.57812V2.10938H10.7812V2.57812C10.7812 2.83699 10.9911 3.04688 11.25 3.04688C11.5089 3.04688 11.7188 2.83699 11.7188 2.57812V2.10938H13.0664C13.6157 2.10938 14.0625 2.55621 14.0625 3.10547V4.21875H0.9375V3.10547C0.9375 2.55621 1.38434 2.10938 1.93359 2.10938ZM13.0664 14.0625H1.93359C1.38434 14.0625 0.9375 13.6157 0.9375 13.0664V5.15625H14.0625V13.0664C14.0625 13.6157 13.6157 14.0625 13.0664 14.0625Z" fill="currentColor"/>
+                                                </svg>
+
+                                            </div>
+                                            <div class="font-size-sm">06 April, 2020</div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <!-- Heading -->
+                                <a href="#" class="d-block"><h5 class="line-clamp-2 h-48 h-lg-52 mb-2">An Indigenous Anatolian Syllabic Script From 3500 Years Ago</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+    <!-- Shape -->
+    <div class="d-none d-wd-block shape shape-blur shape-left shape-fluid-y svg-shim text-white">
+        <svg viewBox="0 0 310 800" fill="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">
+            <path fill="currentColor" d="M193,0H0v800h310c-64.6,0-117-52.4-117-117V0z"/>
+        </svg>
+
+    </div>
+</section>
+
+<!-- INSTRUCTORS
+================================================== -->
+<section class="pt-5 pb-9 py-md-11 bg-white">
+    <div class="container">
+        <div class="text-center mb-4 mb-md-7 text-capitalize" data-aos="fade-up">
+            <h1 class="mb-1">Top Rating Instructors</h1>
+            <p class="font-size-lg mb-0">Discover your perfect program in our courses.</p>
+        </div>
+
+        <div class="mx-n3 mx-md-n4" data-flickity='{"pageDots": true, "prevNextButtons": false, "cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
+            <div class="col-6 col-md-4 col-lg-3 text-center py-5 text-md-left px-3 px-md-4" data-aos="fade-up" data-aos-delay="50">
+                <div class="card rounded-lg border shadow p-2 lift">
+                    <!-- Image -->
+                    <div class="card-zoom position-relative" style="max-width: 250px;">
+                        <div class="card-float card-hover right-0 left-0 bottom-0 mb-4">
+                            <ul class="nav mx-n4 justify-content-center">
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="instructors-single.html" class="card-img sk-thumbnail img-ratio-4 card-hover-overlay d-block"><img class="rounded shadow-light-lg img-fluid" src="{% static 'assets/img/instructors/instructor-1.jpg' %}" alt="..."></a>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-3 pt-4 pb-1">
+                        <a href="#" class="d-block"><h5 class="mb-0">Jack Wilson</h5></a>
+                        <span class="font-size-d-sm">Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center py-5 text-md-left px-3 px-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card rounded-lg border shadow p-2 lift">
+                    <!-- Image -->
+                    <div class="card-zoom position-relative" style="max-width: 250px;">
+                        <div class="card-float card-hover right-0 left-0 bottom-0 mb-4">
+                            <ul class="nav mx-n4 justify-content-center">
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="instructors-single.html" class="card-img sk-thumbnail img-ratio-4 card-hover-overlay d-block"><img class="rounded shadow-light-lg img-fluid" src="{% static 'assets/img/instructors/instructor-2.jpg' %}" alt="..."></a>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-3 pt-4 pb-1">
+                        <a href="#" class="d-block"><h5 class="mb-0">Anna Richard</h5></a>
+                        <span class="font-size-d-sm">Travel Bloger</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center py-5 text-md-left px-3 px-md-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="card rounded-lg border shadow p-2 lift">
+                    <!-- Image -->
+                    <div class="card-zoom position-relative" style="max-width: 250px;">
+                        <div class="card-float card-hover right-0 left-0 bottom-0 mb-4">
+                            <ul class="nav mx-n4 justify-content-center">
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="instructors-single.html" class="card-img sk-thumbnail img-ratio-4 card-hover-overlay d-block"><img class="rounded shadow-light-lg img-fluid" src="{% static 'assets/img/instructors/instructor-3.jpg' %}" alt="..."></a>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-3 pt-4 pb-1">
+                        <a href="#" class="d-block"><h5 class="mb-0">Kathelen Monero</h5></a>
+                        <span class="font-size-d-sm">Designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center py-5 text-md-left px-3 px-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card rounded-lg border shadow p-2 lift">
+                    <!-- Image -->
+                    <div class="card-zoom position-relative" style="max-width: 250px;">
+                        <div class="card-float card-hover right-0 left-0 bottom-0 mb-4">
+                            <ul class="nav mx-n4 justify-content-center">
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="instructors-single.html" class="card-img sk-thumbnail img-ratio-4 card-hover-overlay d-block"><img class="rounded shadow-light-lg img-fluid" src="{% static 'assets/img/instructors/instructor-4.jpg' %}" alt="..."></a>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-3 pt-4 pb-1">
+                        <a href="#" class="d-block"><h5 class="mb-0">Kristen Pala</h5></a>
+                        <span class="font-size-d-sm">User Experience Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center py-5 text-md-left px-3 px-md-4" data-aos="fade-up" data-aos-delay="250">
+                <div class="card rounded-lg border shadow p-2 lift">
+                    <!-- Image -->
+                    <div class="card-zoom position-relative" style="max-width: 250px;">
+                        <div class="card-float card-hover right-0 left-0 bottom-0 mb-4">
+                            <ul class="nav mx-n4 justify-content-center">
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item px-4">
+                                    <a href="#" class="d-block text-white">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="instructors-single.html" class="card-img sk-thumbnail img-ratio-4 card-hover-overlay d-block"><img class="rounded shadow-light-lg img-fluid" src="{% static 'assets/img/instructors/instructor-2.jpg' %}" alt="..."></a>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-3 pt-4 pb-1">
+                        <a href="#" class="d-block"><h5 class="mb-0">Anna Richard</h5></a>
+                        <span class="font-size-d-sm">Travel Bloger</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIAL
+================================================== -->
+<section class="py-8 py-md-11 pb-xl-12 position-relative" style="background-color: #E8F8FB;">
+    <div class="container position-relative">
+        <div class="position-absolute center my-6">
+            <svg width="788" height="636" viewBox="0 0 788 636" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.07">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M437.501 284.409C466.886 353.154 382.991 379.119 349.135 398.273C318.047 415.726 287.172 477.872 260.768 474.68C193.269 466.379 258.426 382.311 211.368 332.509C134.925 251.208 222.014 182.251 277.59 182.251C333.378 182.464 403.432 204.598 437.501 284.409Z" stroke="#090761" stroke-width="2" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M402.581 288.028C414.293 313.78 406.414 332.722 390.657 346.982C374.474 361.667 350.2 370.819 336.36 378.055C312.511 390.825 288.876 438.073 268.86 434.881C218.608 426.58 266.518 364.434 231.171 326.55C173.892 264.829 239.263 212.686 281.423 212.26C323.371 211.835 375.752 228.435 402.581 288.028Z" stroke="#090761" stroke-width="0.8125" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M367.66 291.646C376.39 309.098 374.261 323.145 363.614 334.425C352.755 345.917 334.017 352.941 323.37 358.049C306.549 366.349 290.792 394.868 276.525 395.081C243.947 395.507 274.183 346.556 250.548 320.378C212.646 278.238 256.297 242.908 284.83 242.056C313.362 241.205 347.857 252.485 367.66 291.646Z" stroke="#090761" stroke-width="0.625" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M332.526 295.051C338.488 304.203 341.895 313.355 336.572 321.655C331.248 329.955 317.834 334.85 310.381 337.83C300.799 341.661 292.495 354.218 284.403 355.069C265.665 357.41 282.061 328.466 270.137 314.206C251.399 291.646 273.331 273.13 288.236 271.64C303.354 270.576 320.389 276.322 332.526 295.051Z" stroke="#090761" stroke-width="0.4375" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M309.529 309.31C309.529 314.631 301.864 317.824 297.605 317.824C293.346 317.824 289.727 313.567 289.727 308.246C289.727 302.926 293.134 298.669 297.605 298.669C301.864 298.669 309.529 303.99 309.529 309.31Z" stroke="#090761" stroke-width="0.5" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M443.464 560.238C427.494 589.183 401.09 610.678 369.576 620.469C322.306 635.154 253.529 646.008 194.546 613.871C93.1908 558.322 130.241 523.205 65.0838 453.184C-0.0733874 383.163 -15.4044 347.408 18.4518 251.421C52.3079 155.435 42.5131 208.43 90.8486 102.44C139.184 -3.76205 189.862 -10.1469 243.308 9.43345C307.187 32.8448 464.757 244.611 600.821 82.8598C669.385 1.34591 819.502 149.688 780.961 251.421C742.42 353.154 798.634 480.426 711.758 465.103C624.882 449.779 596.349 463.613 529.062 480.426C489.031 490.429 460.285 529.803 443.464 560.238Z" stroke="#090761" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M133.648 114.784C180.919 38.378 218.82 31.9931 263.962 48.5938C285.681 56.4685 313.788 86.6904 348.07 113.294C404.497 157.137 496.697 184.805 568.242 132.662C657.673 67.3229 733.264 187.572 704.731 273.13C692.381 310.375 705.37 324.847 701.963 358.262C697.704 402.317 681.734 439.988 639.787 444.884C568.242 453.397 543.755 457.866 496.697 472.551C492.864 473.828 488.818 475.105 484.772 476.169C451.981 486.173 427.707 518.31 412.376 543.424C398.109 567.048 375.751 584.713 349.348 593.226C310.381 605.57 255.019 613.658 207.322 588.118C127.473 545.126 151.534 515.969 100.004 460.42C73.6009 432.114 57.418 406.361 48.049 380.396C36.1248 346.769 36.1248 310.588 50.8171 260.573C66.787 206.301 71.8974 195.659 86.5897 173.951C96.8105 159.478 114.697 145.219 133.648 114.784Z" stroke="#090761" stroke-width="0.8594" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M176.447 127.128C219.459 80.5187 247.779 74.1337 284.616 87.542C303.567 94.3526 326.351 116.487 353.606 135.854C400.664 169.269 472.209 201.406 538.005 167.779C588.044 142.239 719.21 106.058 628.289 294.839C616.79 318.888 616.79 346.343 613.383 372.309C609.763 400.402 603.163 418.493 576.333 431.05C542.264 447.012 504.149 449.353 468.803 461.484C433.669 473.403 402.581 496.814 381.287 527.036C368.512 545.127 350.412 559.386 329.119 566.41C298.244 576.626 256.509 581.734 220.311 563.004C200.508 552.789 183.048 540.019 170.911 521.29C142.378 477.447 104.689 438.286 87.8674 387.845C76.369 353.367 73.175 316.122 83.1828 270.363C93.8294 222.476 100.004 202.045 117.252 178.208C130.667 160.117 155.793 149.688 176.447 127.128Z" stroke="#090761" stroke-width="0.7188" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M201.999 140.75C231.597 126.064 265.666 120.531 298.457 128.831C344.025 140.324 380.01 175.654 424.726 189.488C455.814 199.278 491.374 198.852 517.139 218.858C538.006 235.034 548.014 261.637 551.421 287.603C555.254 316.76 551.634 346.769 541.2 374.224C532.257 397.636 517.352 420.196 494.781 431.476C475.404 441.266 452.407 441.479 431.966 449.141C389.379 465.103 364.253 509.797 324.435 532.144C209.665 596.632 126.195 425.091 116.826 336.979C111.077 283.346 117.252 214.815 156.219 174.377C169.42 160.756 184.965 149.263 201.999 140.75Z" stroke="#090761" stroke-width="0.5781" stroke-miterlimit="10"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M357.865 461.484C344.238 472.552 331.888 485.321 317.834 495.963C303.568 506.817 286.959 515.33 269.073 515.969C251.612 516.607 234.578 509.371 220.737 498.73C188.585 473.403 174.744 431.688 164.949 391.889C157.284 361.454 150.896 330.594 149.618 299.095C147.489 245.888 161.755 179.91 217.33 158.627C279.932 134.79 355.523 171.184 408.33 203.534C431.54 217.794 454.111 234.182 470.506 256.103C486.902 277.812 496.697 305.693 492.438 332.722C487.328 364.221 463.905 389.761 438.141 408.49C412.376 427.219 383.204 441.266 358.504 461.272C358.291 461.059 358.078 461.272 357.865 461.484Z" stroke="#090761" stroke-width="0.4375" stroke-miterlimit="10"/>
+            </g>
+            </svg>
+
+        </div>
+
+        <div class="text-center mb-md-10 mb-5 text-capitalize" data-aos="fade-up">
+            <h1 class="mb-1">What Our Students Have To Say</h1>
+            <p class="font-size-lg mb-0">Discover your perfect program in our courses.</p>
+        </div>
+
+        <div class="tab-content text-center mb-md-11 mb-8 w-xl-75 mx-auto" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p class="mb-0 text-capitalize h4 text-gray-800 fw-normal">“ I believe in lifelong learning and Skola is a great place to learn from experts. I've learned a lot and recommend it to all my friends.Programs are available in fall, spring, and summer semesters. Many fall and spring programs offer similar shorter programs in the summer, and some may be combined for a full academic year.“</p>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <p class="mb-0 text-capitalize h4 text-gray-800 fw-normal">“ I believe in lifelong learning and Skola is a great place to learn from experts. I've learned a lot and recommend it to all my friends.Programs are available in fall, spring, and summer semesters. Many fall and spring programs offer similar shorter programs in the summer, and some may be combined for a full academic year. “</p>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <p class="mb-0 text-capitalize h4 text-gray-800 fw-normal">“ I believe in lifelong learning and Skola is a great place to learn from experts. I've learned a lot and recommend it to all my friends.Programs are available in fall, spring, and summer semesters. Many fall and spring programs offer similar shorter programs in the summer, and some may be combined for a full academic year. “</p>
+            </div>
+        </div>
+
+        <ul class="nav row" id="pills-tab" role="tablist">
+            <li class="nav-item col-md-4 mb-4 mb-md-0" role="presentation">
+                <a class="nav-link p-0 active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <!-- Card -->
+                    <div class="card border p-2 lift rounded-pill">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar avatar-custom">
+                                    <img src="{% static 'assets/img/avatars/avatar-1.jpg' %}" alt="..." class="avatar-img rounded-circle img-fluid">
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card-body p-0 ms-5">
+                                    <h5 class="mb-0">Albert Cole</h5>
+                                    <span class="text-gray-800">Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item col-md-4 mb-4 mb-md-0" role="presentation">
+                <a class="nav-link p-0" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <!-- Card -->
+                    <div class="card border p-2 lift rounded-pill">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar avatar-custom">
+                                    <img src="{% static 'assets/img/avatars/avatar-2.jpg' %}" alt="..." class="avatar-img rounded-circle img-fluid">
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card-body p-0 ms-5">
+                                    <h5 class="mb-0">Alison Dawn</h5>
+                                    <span class="text-gray-800">WordPress Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item col-md-4 mb-4 mb-md-0" role="presentation">
+                <a class="nav-link p-0" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <!-- Card -->
+                    <div class="card border p-2 lift rounded-pill">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar avatar-custom">
+                                    <img src="{% static 'assets/img/avatars/avatar-3.jpg' %}" alt="..." class="avatar-img rounded-circle img-fluid">
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card-body p-0 ms-5">
+                                    <h5 class="mb-0">Daniel Parker</h5>
+                                    <span class="text-gray-800">Front-end Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Shape -->
+    <div class="d-none d-wd-block shape shape-blur shape-left shape-flip-y-rotate shape-fluid-y svg-shim text-white">
+        <svg viewBox="0 0 310 800" fill="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px">
+            <path fill="currentColor" d="M193,0H0v800h310c-64.6,0-117-52.4-117-117V0z"/>
+        </svg>
+
+    </div>
+</section>
+
+<!-- COUNTUP
+================================================== -->
+<div class="py-5 pt-md-11 bg-white">
+    <div class="container">
+        <div class="row w-xl-96 mx-xl-auto text-center">
+            <div class="col-md-3 mb-6 mb-md-0">
+                <div class="h1"><span data-toggle="countup" data-from="0" data-to="749" data-aos data-aos-id="countup:in"></span></div>
+                <p class="font-size-lg fw-medium mb-0">Creative Events</p>
+            </div>
+
+            <div class="col-md-3 mb-6 mb-md-0">
+                <div class="h1"><span data-toggle="countup" data-from="0" data-to="853" data-aos data-aos-id="countup:in"></span></div>
+                <p class="font-size-lg fw-medium mb-0">Skilled Tutors</p>
+            </div>
+
+            <div class="col-md-3 mb-6 mb-md-0">
+                <div class="h1"><span data-toggle="countup" data-from="0" data-to="28" data-aos="" data-aos-id="countup:in"></span>k+</div>
+                <p class="font-size-lg fw-medium mb-0">Online Courses</p>
+            </div>
+
+            <div class="col-md-3 mb-6 mb-md-0">
+                <div class="h1"><span data-toggle="countup" data-from="0" data-to="53" data-aos="" data-aos-id="countup:in"></span>k+</div>
+                <p class="font-size-lg fw-medium mb-0">People Worldwide</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NEWSLETTER & SOCIAL
+================================================== -->
+<section class="pt-5 pt-md-11 pb-md-12 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-10 mb-md-0">
+                <h3 class="text-center mb-5">Our Latest Tweets</h3>
+                <div class="text-center mx-xl-10 text-capitalize" data-flickity='{"pageDots": true, "prevNextButtons": false, "cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
+                    <div class="col-12 mb-4 px-2">
+                        <div class="mb-3 h2 text-dodger">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <a href="#" class="">@Skola</a>
+                        <p class="mb-2">Getting the necessary clarity about the current state to help you improve your game.</p>
+                        <span class="text-primary font-size-sm">06 April 2020</span>
+                    </div>
+
+                    <div class="col-12 mb-4 px-2">
+                        <div class="mb-3 h2 text-dodger">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <a href="#" class="">@Skola</a>
+                        <p class="mb-2">Getting the necessary clarity about the current state to help you improve your game.</p>
+                        <span class="text-primary font-size-sm">06 April 2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h3 class="text-center mb-4">Subscribe our newsletter</h3>
+                <p class="mb-5 mx-xl-10 text-center">Your download should start automatically, if not  Click here. Should I give up, huh?.</p>
+                <div class="mx-xl-8">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-left-lg placeholder-1" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark px-5 rounded-right-lg" type="button" id="button-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+{% endblock body %}
