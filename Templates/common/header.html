@@ -374,175 +374,26 @@
             <!-- Navigation -->
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown dropdown-full-width">
-                    <a class="nav-link dropdown-text-gigas" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-text-gigas" id="navbarLandings" data-bs-toggle="dropdown" href="{% url 'homepage' %}" aria-haspopup="true" aria-expanded="false">
                         Home
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-text-gigas" id="navbarCourses" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-text-gigas" id="navbarCourses" data-bs-toggle="dropdown" href="{% url 'courselist' %}" aria-haspopup="true" aria-expanded="false">
                         Courses
                     </a>
                 </li>
-
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle px-xl-4 text-gigas" id="navbarBlog" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                        Blog
+                    <a class="nav-link dropdown-text-gigas" id="navbarCourses" data-bs-toggle="dropdown" href="{% url 'about_us' %}" aria-haspopup="true" aria-expanded="false">
+                        About Us
                     </a>
-                    <ul class="dropdown-menu border-xl shadow-none" aria-labelledby="navbarBlog">
-                        <li class="dropdown-item dropright">
-                            <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                                Blog Grid
-                            </a>
-                            <div class="dropdown-menu border-xl shadow-none">
-                                <a class="dropdown-item" href="blog-grid-v1.html">
-                                    Grid v1
-                                </a>
-                                <a class="dropdown-item" href="blog-grid-v2.html">
-                                    Grid v2
-                                </a>
-                            </div>
-                        </li>
-                        <li class="dropdown-item dropright">
-                            <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                                Blog List
-                            </a>
-                            <div class="dropdown-menu border-xl shadow-none">
-                                <a class="dropdown-item" href="blog-list-v1.html">
-                                    List v1
-                                </a>
-                                <a class="dropdown-item" href="blog-list-v2.html">
-                                    List v2
-                                </a>
-                            </div>
-                        </li>
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-single.html">
-                                Blog Single
-                            </a>
-                        </li>
-                    </ul>
                 </li>
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle px-xl-4 text-gigas" id="navbarShop" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                        Shop
+                    <a class="nav-link dropdown-text-gigas" id="navbarCourses" data-bs-toggle="dropdown" href="{% url 'contact_us' %}" aria-haspopup="true" aria-expanded="false">
+                        Contact Us
                     </a>
-                    <ul class="dropdown-menu border-xl shadow-none" aria-labelledby="navbarShop">
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="shop-cart.html">
-                                Shop Cart
-                            </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="shop-checkout.html">
-                                Shop Checkout
-                            </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="shop-list.html">
-                                Shop List
-                            </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="shop-single.html">
-                                Shop Single
-                            </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a class="dropdown-link" href="shop-order-completed.html">
-                                Shop Order Completed
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle px-xl-4 text-gigas" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                        Documentation
-                    </a>
-                    <div class="dropdown-menu border-xl shadow-none dropdown-menu-md" aria-labelledby="navbarDocumentation">
-                        <div class="list-group list-group-flush">
-                            <a class="list-group-item" href="docs/index.html">
-
-                                <!-- Icon -->
-                                <div class="display-4 text-primary">
-                                    <i class="fas fa-clipboard"></i>
-                                </div>
-
-                                <!-- Content -->
-                                <div class="ms-4">
-
-                                    <!-- Heading -->
-                                    <h5 class="text-primary mb-n1">
-                                        Documentation
-                                    </h5>
-
-                                    <!-- Text -->
-                                    <p class="font-size-sm text-gray-700 mb-0">
-                                        Customizing and building
-                                    </p>
-
-                                </div>
-
-                            </a>
-                            <a class="list-group-item" href="docs/alerts.html">
-
-                                <!-- Icon -->
-                                <div class="display-4 text-primary">
-                                    <i class="fas fa-th-large"></i>
-                                </div>
-
-                                <!-- Content -->
-                                <div class="ms-4">
-
-                                    <!-- Heading -->
-                                    <h5 class="text-primary mb-n1">
-                                        Components
-                                    </h5>
-
-                                    <!-- Text -->
-                                    <p class="font-size-sm text-gray-700 mb-0">
-                                        Full list of components
-                                    </p>
-
-                                </div>
-
-                            </a>
-                            <a class="list-group-item" href="docs/changelog.html">
-
-                                <!-- Icon -->
-                                <div class="display-4 text-primary">
-                                    <i class="fas fa-file-alt"></i>
-                                </div>
-
-                                <!-- Content -->
-                                <div class="ms-4">
-
-                                    <!-- Heading -->
-                                    <h5 class="text-primary mb-n1">
-                                        Changelog
-                                    </h5>
-
-                                    <!-- Text -->
-                                    <p class="font-size-sm text-gray-700 mb-0">
-                                        Keep track of changes
-                                    </p>
-
-                                </div>
-
-                                <!-- Badge -->
-                                <span class="badge badge-pill badge-primary-soft ms-auto">
-                                    1.0
-                                </span>
-
-                            </a>
-                        </div>
-                    </div>
                 </li>
             </ul>
-        </div>
-
         <!-- Search, Account & Cart -->
         <ul class="navbar-nav flex-row ms-n4 ms-sm-auto ms-xl-0 me-n2 me-md-n4">
 

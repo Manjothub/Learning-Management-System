@@ -8,3 +8,12 @@ def ABOUTUS(request):
 
 def SINGLE_COURSE(request):
     return render(request, 'user/single_course.html')
+
+def COURSE_LIST(request):
+    return render(request,'user/course_list.html')
+
+def COURSE_SINGLE(request):
+    return render(request,'user/single_course.html')
+
+def CONTACT_US(request):
+    return render(request,'user/contact_us.html')
