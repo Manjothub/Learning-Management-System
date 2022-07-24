@@ -1,0 +1,51 @@
+{% extends "common/base.html" %}
+{% block body %}
+<div class="container mb-11">
+    <div class="row gx-0">
+        <div class="col-md-7 col-xl-4 mx-auto">
+            <!-- Register -->
+            <h3 class="mb-6">Sign Up and Start Learning!</h3>
+            {% include "common/error.html" %}
+            <!-- Form Register -->
+            <form class="mb-5" method="POST" action="{% url 'register'%}">
+                {% csrf_token %}
+                <!-- Username -->
+                <div class="form-group mb-5">
+                    <label for="modalSignupUsername1">
+                        Username
+                    </label>
+                    <input type="text" class="form-control" id="modalSignupUsername1" placeholder="John" name="username">
+                </div>
+
+                <!-- Email -->
+                <div class="form-group mb-5">
+                    <label for="modalSignupEmail1">
+                        Email
+                    </label>
+                    <input type="email" class="form-control" id="modalSignupEmail1" placeholder="johndoe@creativelayers.com" name="useremail">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-5">
+                    <label for="modalSignupPassword3">
+                        Password
+                    </label>
+                    <input type="password" class="form-control" id="modalSignupPassword3" placeholder="**********" name="password">
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                    SIGN UP
+                </button>
+
+            </form>
+
+            <!-- Text -->
+            <p class="mb-0 font-size-sm text-center">
+                Already have an account? <a class="text-underline" href="{% url 'userlogin' %}">Log In</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
