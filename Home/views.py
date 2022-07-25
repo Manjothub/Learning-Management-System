@@ -23,7 +23,15 @@ def SINGLE_COURSE(request):
     return render(request, 'user/single_course.html')
 
 def COURSE_LIST(request):
-    return render(request,'user/course_list.html')
+    category = Categories.get_all_category(Categories)
+    level= Level.objects.all()
+    course = Course.objects.all()
+    context ={
+        'category':category,
+        'level':level,
+        'courses':course
+    }
+    return render(request,'user/course_list.html',context)
 
 def COURSE_SINGLE(request):
     return render(request,'user/single_course.html')
